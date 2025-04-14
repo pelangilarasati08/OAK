@@ -77,6 +77,17 @@ _start: Label _start adalah titik masuk dari program. Di sinilah eksekusi progra
 
 * len2 dan len3: Sama seperti len1, ini menghitung panjang string pesan2 dan pesan3 masing-masing.
 
+## 4. Output Program
+
+   ![Screenshot 2025-04-14 152537](https://github.com/user-attachments/assets/86832b70-3c38-4eee-9ad9-f60eb697c54e)
+
+   penjelasan
+   Ketika kode dijalankan, program akan menampilkan output ke layar berupa string-string berikut
+
+
+
+
+
   
 
 
