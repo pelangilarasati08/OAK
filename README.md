@@ -11,6 +11,18 @@ Menghemat waktu nulis dan menghindari typo dari ngulang-ngulang instruksi
 
 
 ## Penjelasan kode
+1. Macro tulis_string
+%macro tulis_string 2
+    mov eax, 4          ; syscall write
+    mov ebx, 1          ; file descriptor 1 (stdout)
+    mov ecx, %1         ; pointer ke string
+    mov edx, %2         ; panjang string
+    int 0x80            ; panggil kernel
+%endmacro
+
+
+
+
 
 
 
