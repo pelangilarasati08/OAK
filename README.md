@@ -1,1 +1,1 @@
-# OAK
+# Organisasi dan Arsitektur Komputer
