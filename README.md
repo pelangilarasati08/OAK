@@ -84,6 +84,13 @@ _start: Label _start adalah titik masuk dari program. Di sinilah eksekusi progra
    penjelasan
    Ketika kode dijalankan, program akan menampilkan output ke layar berupa string-string berikut
 
+   ## Kesimpulan
+  * Macro tulis_string digunakan untuk menulis string ke layar dengan sistem call write.
+
+  * Section .text berisi kode yang mengendalikan eksekusi program dan menulis tiga pesan menggunakan macro tersebut.
+
+  * Section .data mendeklarasikan string yang ingin ditampilkan beserta panjangnya.
+
 
 
 
